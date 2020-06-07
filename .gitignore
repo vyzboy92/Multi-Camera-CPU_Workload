@@ -103,7 +103,7 @@ dmypy.json
 
 # models
 *.caffemodel
-*.prototxtx
+*.prototxt
 *.xml
 *.bin
 *.pb
