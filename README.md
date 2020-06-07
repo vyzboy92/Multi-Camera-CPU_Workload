@@ -7,7 +7,7 @@ Intel CPUs, although supports parallelism will struggle to parallel process mult
 Batch wise stream processing from a buffered queue manager based on OpenCV populates real-time streams into inference batches.
 Each inference batch is processed and results are visualized on to a display sink.
 
-![img}(https://github.com/vyzboy92/Multi-Camera-CPU_Workload/blob/master/utils/images/multicam.png)
+![img](https://github.com/vyzboy92/Multi-Camera-CPU_Workload/blob/master/utils/images/multicam.png)
 
 ## Prerequisites
 1. OpenVINO
