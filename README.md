@@ -10,7 +10,7 @@ Each inference batch is processed and results are visualized on to a display sin
 ![img](https://github.com/vyzboy92/Multi-Camera-CPU_Workload/blob/master/utils/images/multicam.png)
 
 ## Prerequisites
-1. OpenVINO
+1. OpenVINO 2020
 2. OpenCV
 3. imutils
 4. Python 3.5 or higher
@@ -19,3 +19,11 @@ Each inference batch is processed and results are visualized on to a display sin
 ## Run Demo
 1. Open ```utils/config.py``` and enter the video sources in ```video_inputs``` list. The program supports webcam, rtsp and video file inputs.
 2. Run ```python3 multi_camera_CPU_inference.py```
+
+## Performance
+### System Configuration
+* 16 GB RAM
+* Intel Core i7 8th Gen
+* 128 GB SSD
+
+The workload averaged 60 FPS when processing two HD videos.
